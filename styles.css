@@ -66,3 +66,99 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Barra de navegación */
+nav {
+    background-color: #006400;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* Sección principal */
+.hero {
+    background-color: #0073e6;
+    color: white;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+/* Secciones generales */
+section {
+    padding: 40px 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Sección de Equipos */
+.equipos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.equipo {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.equipo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.equipo h3 {
+    color: #333;
+}
+
+.equipo p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Pie de página */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
